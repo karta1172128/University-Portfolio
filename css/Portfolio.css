@@ -1,0 +1,36 @@
+section {
+    font-size: 20px;
+    text-align: left;
+}
+
+section h3 {
+    text-align: center;
+    padding: auto;
+    width: auto;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.LOGO {
+    display: block;
+    margin: auto;
+    padding: auto; 
+}
+
+/****************************************************************************************/
+
+body {
+    /* background: url(../images/forest.jpg)no-repeat center center fixed; */
+    /* background: radial-gradient(rgb(9, 22, 36), rgb(22, 28, 63), rgb(10, 19, 33)); */
+    background: radial-gradient(rgb(0, 0, 0), rgb(5, 5, 5), rgb(0, 0, 0));
+    /* background-color: black; */
+    background-size: cover;
+}
+
+.block1 {
+    padding-bottom: 15%;
+}
+
+.block2 {
+    padding-bottom: 30%;
+}
