@@ -1,34 +1,31 @@
 $(document).ready(function () {
-    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').on('click', function () {
-        if (
-            location.pathname.replace(/^\//, "") ==
-            this.pathname.replace(/^\//, "") &&
-            location.hostname == this.hostname
-        ) {
-            var target = $(this.hash);
-            target = target.length ?
-                target :
-                $("[name=" + this.hash.slice(1) + "]");
-            if (target.length) {
-                anime({
-                    targets: 'html, body',
-                    scrollTop: target.offset().top - 100,
-                    duration: 1000,
-                    easing: 'easeInOutExpo'
-                });
-                return false;
-            }
-        }
+    /*
+     * Scroll page.
+     */
+    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function (event) {
+        event.preventDefault();
+
+        $("#MyMenu").collapse('hide');
+        var target = $(this.getAttribute('href'));
+        anime({
+            targets: 'html, body',
+            scrollTop: target.offset().top - 100,
+            duration: 750,
+            easing: 'easeInOutExpo'
+        });
+    });
+    /*
+     * Scroll spy.
+     */
+    $("body").scrollspy({ target: "#navbar", offset: 100 });
+    /*
+     * Auto hide MyMenu when click anywhere or scroll page.
+     */
+    $(document).click(function () {
+        $("#MyMenu").collapse('hide');
     });
 
-    // 控制連結文字選單
-    $(".js-scroll-trigger").on('click', function () {
-        $(".navbar-collapse").collapse("hide");
+    $(window).scroll(function () {
+        $("#MyMenu").collapse('hide');
     });
-
-    $("body").scrollspy({
-        target: "#",
-        offset: 100,
-    });
-
-})
+})  

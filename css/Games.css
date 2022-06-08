@@ -1,9 +1,9 @@
 .container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1400px;
+    max-width: 1500px;
 }
 section {
     font-size: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 section h3 {
