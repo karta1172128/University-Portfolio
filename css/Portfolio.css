@@ -1,0 +1,55 @@
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1400px;
+}
+
+section {
+    font-size: 20px;
+    text-align: left;
+}
+
+section h3 {
+    text-align: center;
+    padding: auto;
+    width: auto;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+section {
+    padding: 1%;
+    margin-left: 0%;
+    margin-right: 0%;
+    border-top: 5px solid rgb(56, 56, 56);
+}
+
+.sectionBG {
+    /* background: rgb(30, 30, 30); */
+}
+
+.headshot {
+    display: block;
+    margin: auto;
+    padding: auto;
+    border-radius: 50%;
+}
+
+svg {
+    display: block;
+    margin: auto;
+    padding: auto;
+}
+
+.buttom {
+    /* z-index: 1;
+    position:absolute;
+    margin-left: 10%;
+    margin-top: 30%; */
+    width: 10%;
+    text-align: left;
+}
+
+/****************************************************************************************/
+body {
+    background-color: rgb(28, 28, 28);
+    background-size: cover;
+}

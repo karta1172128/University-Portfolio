@@ -1,0 +1,157 @@
+.row {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    /* font-family: 'Noto Sans TC', sans-serif; */
+    color: white;
+}
+
+h3, h4 {
+    font-weight: bold;
+    text-align: left;
+}
+
+h1, h2 {
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.transparent {
+    color: rgba(255, 255, 255, 0);
+}
+
+/****************************************************************************************/
+.Menu a {
+    font-size: 25px;
+}
+
+.navbar {
+    background: linear-gradient(rgb(40, 40, 40), rgb(24, 24, 24));
+    border-bottom: 1.5px solid rgb(35, 35, 72);
+    padding-bottom: 0%;
+    padding-top: 0%;
+}
+
+.navbar-nav {
+    padding-right: 15%;
+}
+
+.nav-item a {
+    font-size: 22.5px;
+    text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, .75);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    border-bottom: 1px solid white;
+}
+
+.navbar-dark .navbar-nav .nav-link:active {
+    color: rgba(255, 255, 255, 0.35);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+/****************************************************************************************/
+.Marquee {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.Marquee img {
+    padding: 5px;
+    border-radius: 3%;
+}
+
+.carousel-inner {
+    background: rgb(40, 40, 40);
+    border-radius: 3%;
+}
+
+.carousel-control-prev-icon {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-control-next-icon {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+    height: 20%;
+    top: 40%;
+}
+
+.carousel-indicators {
+    justify-content: flex-end;
+    padding: 0% 3%;
+    margin: 2% 0%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.carousel-indicators li {
+    text-indent: 0px;
+    border-bottom: 15px solid transparent;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5%;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5%; 
+}
+
+.videoText {
+    display: block;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+/****************************************************************************************/
+
+
+footer {
+    background: linear-gradient(rgb(24, 24, 24)，rgb(40, 40, 40));
+    border-top: 1.5px solid white;
+    color: #ffffff;
+    padding-top: 0.25%;
+    padding-bottom: 0.25%;
+    clear: both;
+    background-position: bottom;
+    text-align: center;
+}
+
+footer div {
+    margin: auto;
+}
+
+.bottom-text {
+    color: #b0b0b0;
+}
+
+.block1 {
+    padding-bottom: 15%;
+}
+
+.block2 {
+    padding-bottom: 30%;
+}

@@ -1,0 +1,67 @@
+.content {
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.BoxBorder {
+    margin: 1%;
+    padding: 5px;
+}
+
+.IntroductionBox {
+    height: 100%;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.IntroductionBox p {
+    color: white;
+}
+
+.IntroductionBoxTittle {
+    padding-top: 10%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.Photo {
+    top: 0%;
+    background-color: rgb(255, 255, 255);
+    padding: 4px 5px;
+    display: block;
+    margin: auto;
+}
+
+.Photo {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+}
+
+.Photo {
+    z-index: 0;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .15s ease-in-out;
+    transition: .15s ease-in-out;
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+.Photo:hover {
+    z-index: 1;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+.block1 {
+    padding-bottom: 10%;
+} 
