@@ -126,6 +126,10 @@ iframe {
     font-size: 25px;
 }
 
+.dividLine {
+    border-top: 5px solid rgba(255, 255, 255, 0.05);
+}
+
 .progress {
     border-radius: 0%;
     height: 5px;

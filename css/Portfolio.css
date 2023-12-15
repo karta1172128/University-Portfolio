@@ -19,7 +19,7 @@ section {
     padding: 1%;
     margin-left: 0%;
     margin-right: 0%;
-    border-top: 5px solid rgb(56, 56, 56);
+    border-top: 5px solid rgba(255, 255, 255, 0.2);
 }
 
 .sectionBG {
