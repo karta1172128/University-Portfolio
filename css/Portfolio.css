@@ -26,6 +26,10 @@ section {
     /* background: rgb(30, 30, 30); */
 }
 
+.dividLine {
+    border-top: 5px solid rgba(255, 255, 255, 0.05);
+}
+
 .headshot {
     display: block;
     margin: auto;
