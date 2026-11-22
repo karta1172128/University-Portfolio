@@ -1,0 +1,23 @@
+# Dependencies and generated output
+/node_modules/
+/dist/
+/.vite/
+
+# Local previews and archived implementation (keep on this computer)
+/previews/
+/legacy/
+
+# Local code index and temporary editor files
+/.codebase-memory/
+/.editor-test-*/
+/src/data/content.json.editor-tmp-*
+
+# Local configuration, credentials and logs
+*.local
+.env
+.env.*
+!.env.example
+*.log
+Thumbs.db
+Desktop.ini
+.DS_Store

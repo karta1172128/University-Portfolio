@@ -1,0 +1,516 @@
+{
+  "schemaVersion": 2,
+  "site": {
+    "name": "AYi",
+    "email": "karta1172128@gmail.com",
+    "homeTitle": "阿逸 AYi｜個人履歷與遊戲開發作品",
+    "homeDescription": "認識阿逸的遊戲開發經歷、技能與作品。",
+    "listTitle": "全部作品｜AYi",
+    "listDescription": "阿逸的遊戲、互動系統與網頁作品。",
+    "aiStatement": "這裡展示的所有作品，都沒有使用 AI 輔助製作。",
+    "showreel": {
+      "id": "I4FvcAileZ8",
+      "title": "大學作品合集",
+      "heading": "作品展示影片",
+      "description": "想先看看遊戲玩起來的樣子，也可以從這段大學作品合集開始。"
+    },
+    "skillsTitle": "個人技能",
+    "portfolioTitle": "作品集",
+    "workingNote": {
+      "title": "善用工具，也持續學習",
+      "description": "善用工具，也保有學習熱忱不斷更新技能。\n高中曾用Verilog語言在全國工業競賽獲優勝。"
+    },
+    "contact": {
+      "title": "聯絡我",
+      "description": "如果想進一步了解作品，或有適合的職缺，歡迎來信說明。"
+    }
+  },
+  "profile": {
+    "alias": "AYi",
+    "kicker": "個人簡介",
+    "greeting": "你好，我是",
+    "name": "阿逸。",
+    "lead": "喜歡玩遊戲、也喜歡開發遊戲，喜歡寫程式的遊戲工程師。",
+    "facts": [
+      {
+        "label": "所在地",
+        "value": "桃園市"
+      },
+      {
+        "label": "求職方向",
+        "value": "遊戲工程師"
+      },
+      {
+        "label": "主要工具",
+        "value": "Unity / C#"
+      }
+    ],
+    "paragraphs": [
+      "最熟悉的工具是 Unity 和 C#。\n從試著用程式控制物件，到後來專題與團隊一同開發遊戲，慢慢確定這是自己想繼續投入的方向。",
+      "能獨立開發，也能與其他程式人員合作。\n有過接手並維護專案的經驗，也有將 VR 系統移植至 PC 的經驗。\n以上在有AI工具前就有能力做到，有AI工具後能做到更多。",
+      "內向、不擅長社交，但希望能有機會不斷累積經驗，製作受人喜愛、自己理想的遊戲。"
+    ],
+    "workExperienceTitle": "工作經歷",
+    "workExperiences": [
+      {
+        "id": "work-2e502081-1ed9-41ac-85a2-17dbc1a53508",
+        "company": "翊銘科技股份有限公司",
+        "title": "軟體工程師",
+        "start": "2024-07",
+        "end": "",
+        "current": true,
+        "tools": "Unity / C#",
+        "paragraphs": [
+          "開發教育App部分系統功能、課程單元、教育遊戲。\n負責維護管理公司委外的App專案。"
+        ],
+        "links": []
+      },
+      {
+        "id": "work-1458fc9e-af40-417d-98a7-ab0fefe1ee30",
+        "company": "待業期間",
+        "title": "",
+        "start": "2022-07",
+        "end": "2024-06",
+        "current": false,
+        "tools": "",
+        "paragraphs": [
+          "因兵役、家庭因素，期間選擇自主學習、整理作品。"
+        ],
+        "links": []
+      },
+      {
+        "id": "work-17202845-5d96-43fd-b69b-6723b48c0fea",
+        "company": "國立臺中科技大學",
+        "title": "",
+        "start": "2018-09",
+        "end": "2022-06",
+        "current": false,
+        "tools": "",
+        "paragraphs": [
+          "學習媒體設計、應用，以及程式相關知識。"
+        ],
+        "links": []
+      }
+    ],
+    "experienceTitle": "相關經歷",
+    "experiences": [
+      {
+        "id": "experience-1",
+        "category": "團隊合作",
+        "context": "",
+        "title": "設計與封裝工具函式、與美術或企劃協調",
+        "paragraphs": [
+          "能與程式人員合作，討論腳本串接的需求。\n能與美術人員協調，提供美術所需的輸出格式。\n能與企劃人員協調，討論實際、當前可行的技術邊界。"
+        ],
+        "links": []
+      },
+      {
+        "id": "experience-2",
+        "category": "維護專案",
+        "context": "",
+        "title": "委外專案接手與維護",
+        "paragraphs": [
+          "從頭接手一項公司委外的專案。\n負責問題修正、系統維護與功能更新，並管理上線版本。"
+        ],
+        "links": []
+      },
+      {
+        "id": "experience-3",
+        "category": "政府計畫與專案協作",
+        "context": "",
+        "title": "繪本互動與機台教學開發",
+        "paragraphs": [
+          "從零製作繪本用的影像辨識網頁，讓手機辨識繪本圖示後播放對應動畫，並處理 Android、iOS 的相容問題。",
+          "參與教育部車床、銑床教學系統計畫，負責將 VR 版本移植至 PC，加入鍵盤、滑鼠操作與對應介面。"
+        ],
+        "links": [
+          {
+            "href": "projects/Lathe/index.html",
+            "text": "車床教學系統",
+            "afterParagraph": 1
+          },
+          {
+            "href": "projects/MillingMachine/index.html",
+            "text": "銑床教學系統",
+            "afterParagraph": 1
+          },
+          {
+            "href": "projects/SignLanguage/index.html",
+            "text": "手語繪本網頁",
+            "afterParagraph": 0
+          }
+        ]
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "Unity／C#",
+      "title": "遊戲與互動開發",
+      "description": "主要用 Unity 和 C# 開發遊戲，實作角色技能、關卡流程、存檔與操作設定，也做過 VR 互動與機台教學系統。"
+    },
+    {
+      "name": "HTML／CSS",
+      "title": "網頁結構與排版",
+      "description": "原本為了課業開始接觸，後來自己做了作品集網站，也協助製作過繪本影像辨識網頁。能調整網頁結構、樣式與排版，還在持續摸索。"
+    },
+    {
+      "name": "JavaScript",
+      "title": "網頁互動功能",
+      "description": "用來實作網頁互動，曾用 tracking.js 製作影像辨識功能。\n也有極少用於資料庫管理的學習經驗。"
+    }
+  ],
+  "projects": {
+    "PureSpirit": {
+      "id": "PureSpirit",
+      "title": "純淨之靈",
+      "category": "畢業專題",
+      "group": "Special",
+      "type": "2D 橫向動作遊戲",
+      "team": "",
+      "cover": "08.png",
+      "tags": [
+        "動作遊戲",
+        "按鍵設置",
+        "存檔與關卡"
+      ],
+      "summary": "橫向動作遊戲，雙角色可即時切換。共有四個關卡，通過機關並挑戰 BOSS。",
+      "award": "放視大賞入圍",
+      "video": "ByOSk8Qdez4",
+      "download": "https://drive.google.com/file/d/1pu53zkKKKZBYMou48kDk0Dn1nl2ORzxj/view?usp=sharing",
+      "images": [
+        "01.png",
+        "02.png",
+        "03.png",
+        "04.png",
+        "05.png",
+        "06.png",
+        "07.png",
+        "08.png"
+      ],
+      "sections": [
+        {
+          "title": "角色與戰鬥系統",
+          "paragraphs": [
+            "讓玩家切換近戰與遠程角色，使用各自的主動技能和切換技能。\n角色剛上場時，會獲得短暫的傷害加成。"
+          ]
+        },
+        {
+          "title": "關卡與進度流程",
+          "paragraphs": [
+            "四個關卡會隨劇情逐步開放，裡面有陷阱、機關和 BOSS。\n關卡內部會存檔，避免失敗要從頭來過。"
+          ]
+        },
+        {
+          "title": "存檔與操作設定",
+          "paragraphs": [
+            "提供三個存檔欄位，紀錄關卡進度、遊玩時間和最速通關時間。\n設定中能自行調整音量、解析度與按鍵設置。"
+          ]
+        }
+      ],
+      "mechanics": [
+        {
+          "title": "一位近戰，一位遠程",
+          "paragraphs": [
+            "一開始只能操作一位角色，隨著劇情推進，第二位角色才會加入。兩人各有自己的主動技能和切換技能，可以依照戰況換人。"
+          ]
+        },
+        {
+          "title": "換人時也會施放技能",
+          "paragraphs": [
+            "換人時，原角色會先施放切換技能，再離開畫面。\n上場角色則會得到傷害 Buff ，讓玩家有理由在戰鬥中多切換。"
+          ]
+        }
+      ],
+      "sectionsTitle": "我負責的部分",
+      "mechanicsTitle": "角色切換怎麼玩？",
+      "responsibilities": [
+        "所有程式"
+      ]
+    },
+    "SeaWar": {
+      "id": "SeaWar",
+      "title": "SeaWar — VR",
+      "category": "VR 遊戲",
+      "group": "Junior",
+      "type": "VR 海戰遊戲",
+      "team": "",
+      "cover": "02.png",
+      "tags": [
+        "VR",
+        "敵對NPC",
+        "物理模擬"
+      ],
+      "summary": "用船舵控制航向，親手裝填砲彈、操作砲台。與海上的 NPC 船隻對戰。",
+      "images": [
+        "01.png",
+        "02.png",
+        "03.png",
+        "04.png",
+        "05.png"
+      ],
+      "sections": [
+        {
+          "title": "作品介紹",
+          "paragraphs": [
+            "這是課程中 4 人合作的 VR 遊戲，是我第一次接觸 VR 。\n其中模擬船隻晃動的物理是我最中意的。",
+            "使用船舵控制航向，從砲彈箱取出砲彈、裝入砲台後瞄準射擊。\n開始前選擇 NPC 數量；玩家的船被擊毀時，依剩餘的 NPC 數量計算排名。\n",
+            "NPC 會自由探索，互相交戰或攻擊玩家，同樣也會模擬航行的晃動。\n開發過程中，我也針對效能進行優化，降低執行負擔。\n"
+          ]
+        }
+      ],
+      "responsibilities": [
+        "所有程式"
+      ]
+    },
+    "MillingMachine": {
+      "id": "MillingMachine",
+      "title": "銑床虛擬實境學習系統",
+      "fullTitle": "銑床項丙級技術虛擬實境學習系統 PC版",
+      "category": "教育部計畫案",
+      "group": "Special",
+      "type": "PC 互動教學",
+      "team": "",
+      "cover": "01.png",
+      "tags": [
+        "PC 移植",
+        "VR"
+      ],
+      "summary": "將銑床 VR 教學系統改為鍵盤、滑鼠操作，加入 PC 介面與細節畫面。",
+      "images": [
+        "01.png",
+        "02.png",
+        "03.png",
+        "04.png",
+        "05.png",
+        "06.png"
+      ],
+      "sections": [
+        {
+          "title": "作品介紹",
+          "paragraphs": [
+            "教育部銑床教學系統計畫，系統分為教學、練習與測驗三種模式。",
+            "教學模式透過語音、文字與動畫示範機台操作。部分步驟需使用者跟著操作才會往下一步。\n練習模式能自由拿取工具、操作機台。\n測驗模式會依銑床操作成果，按照證照考試的評分標準評分，並紀錄學習歷程。\n",
+            "與教授、學長、研究生合作。負責將團隊製作的 VR 版本移植至 PC。\n加入鍵盤、滑鼠操作、對應介面與細節畫面。\n"
+          ]
+        }
+      ],
+      "pageTitle": "銑床虛擬實境學習系統｜AYi",
+      "responsibilities": [
+        "操作由 VR 轉 PC",
+        "添加 PC 端 UI 及對應功能"
+      ],
+      "external": "https://proj.moe.edu.tw/ivr/News_Photo_Content.aspx?n=7334&s=19450&sms=15002",
+      "externalLabel": "教育部教材介紹"
+    },
+    "Lathe": {
+      "id": "Lathe",
+      "title": "車床 VR 學習系統 PC 版",
+      "fullTitle": "丙級機械加工之車床VR學習系統 PC版",
+      "category": "教育部計畫案",
+      "group": "Special",
+      "type": "PC 互動教學",
+      "team": "",
+      "cover": "01.png",
+      "tags": [
+        "PC 移植",
+        "VR"
+      ],
+      "summary": "將車床 VR 教學系統改為鍵盤、滑鼠操作，加入 PC 介面與細節畫面。",
+      "images": [
+        "01.png",
+        "02.png",
+        "03.png"
+      ],
+      "sections": [
+        {
+          "title": "作品介紹",
+          "paragraphs": [
+            "教育部車床教學系統計畫，系統分為教學、練習與測驗三種模式。",
+            "教學模式透過語音、文字與動畫介紹機台操作。\n練習模式能自由拿取工具、操作機台。\n測驗模式會依加工完成的工件，按照證照考試的評分標準評分，並紀錄學習歷程。\n",
+            "與教授、學長、研究生合作。負責將團隊製作的 VR 版本移植至 PC。\n加入鍵盤、滑鼠操作、對應介面與細節畫面。\n"
+          ]
+        }
+      ],
+      "pageTitle": "車床 VR 學習系統 PC 版｜AYi",
+      "responsibilities": [
+        "操作由 VR 轉 PC",
+        "添加 PC 端 UI 及對應功能"
+      ],
+      "external": "https://proj.moe.edu.tw/vrar/News_Photo_Content.aspx?n=6743&s=18511",
+      "externalLabel": "教育部教材介紹"
+    },
+    "SignLanguage": {
+      "id": "SignLanguage",
+      "title": "臺灣手語繪本影像辨識網頁",
+      "fullTitle": "《希兒與皮帝的神奇之旅：臺灣手語繪本》影像辨識網頁",
+      "category": "專案協作",
+      "group": "Special",
+      "type": "行動網頁互動",
+      "team": "",
+      "cover": "01.png",
+      "tags": [
+        "tracking.js",
+        "影像辨識",
+        "手機相機"
+      ],
+      "summary": "讓手機相機對準繪本，播放對應的手語動畫，共十張的圖片辨識。",
+      "external": "https://sl.ntl.edu.tw/CRPD1",
+      "client": "衛生福利部社會及家庭署",
+      "images": [
+        "01.png",
+        "02.png",
+        "03.png",
+        "04.png"
+      ],
+      "sections": [
+        {
+          "title": "作品介紹",
+          "paragraphs": [
+            "與教授合作的繪本互動專案。我從零開發影像辨識網頁。\n完成辨識功能後，教授則協助排版、讀取進度等提示。",
+            "嘗試各種套件，為了 Android 與 iOS 兼容，最後選用 tracking.js 實作圖片辨識與動畫播放的互動流程。",
+            "手機開啟網頁後，將鏡頭對準繪本上的手語圖示，就會播放對應的手語動畫。"
+          ]
+        }
+      ],
+      "pageTitle": "臺灣手語繪本影像辨識網頁｜AYi",
+      "responsibilities": [
+        "影像辨識功能"
+      ]
+    },
+    "AlienBubble": {
+      "id": "AlienBubble",
+      "title": "外星泡泡",
+      "category": "資料庫練習",
+      "group": "Junior",
+      "type": "射擊消除遊戲",
+      "cover": "04.png",
+      "tags": [
+        "Node.js",
+        "MongoDB",
+        "排行榜"
+      ],
+      "summary": "用對應的顏色子彈射擊怪物的遊戲， 使用Node.js 和 MongoDB 紀錄分數、顯示排名。",
+      "images": [
+        "01.png",
+        "02.png",
+        "03.png",
+        "04.png",
+        "05.png",
+        "06.png"
+      ],
+      "sections": [
+        {
+          "title": "作品介紹",
+          "paragraphs": [
+            "這是課程中的資料庫串接練習。\n玩家要用對應的顏色子彈射擊的怪物，對抗右側的敵人。\n累計受到三次攻擊後遊戲結束，並記錄分數。\n",
+            "我使用 Node.js 伺服器，將玩家名稱與分數存入 MongoDB。\n在遊戲排行榜，依分數列出玩家與成績。\n"
+          ]
+        }
+      ],
+      "responsibilities": [
+        "所有程式（含資料庫）"
+      ],
+      "team": ""
+    },
+    "ArduinoShoot": {
+      "id": "ArduinoShoot",
+      "title": "Arduino 體感：獵鳥",
+      "category": "硬體互動",
+      "group": "Junior",
+      "type": "體感射擊遊戲",
+      "team": "",
+      "cover": "01.png",
+      "tags": [
+        "Arduino",
+        "Unity",
+        "陀螺儀"
+      ],
+      "summary": "用陀螺儀晶片的傾斜控制瞄準，在限時內射擊目標得分。",
+      "images": [
+        "01.png",
+        "02.png",
+        "03.png",
+        "04.png"
+      ],
+      "sections": [
+        {
+          "title": "作品介紹",
+          "paragraphs": [
+            "這是課程中 2 人合作的硬體互動實作，將 Arduino 與 Unity 結合成體感射擊遊戲。\n每局限時 30 秒，鳥與飛機會隨機從畫面中飛過。\n擊中鳥加分、擊中飛機扣分，時間結束後結算成績。\n",
+            "透過傾斜晶片控制瞄準。\n操作方式以傾斜控制為主，無法完整呈現實際瞄準的手感。\n",
+            "我負責晶片焊接、Arduino，並與 Unity 的整合。"
+          ]
+        }
+      ],
+      "responsibilities": [
+        "整合 Unity 與 Arduino",
+        "晶片焊接\n"
+      ]
+    },
+    "GloriousBottle": {
+      "id": "GloriousBottle",
+      "title": "光輝之瓶",
+      "category": "團隊遊戲實作",
+      "group": "Sophomore",
+      "type": "2D 橫向戰鬥遊戲",
+      "team": "",
+      "cover": "04.png",
+      "tags": [
+        "動作遊戲"
+      ],
+      "summary": "橫向動作遊戲，包含對話、劇情演出、魔力恢復與 BOSS 戰。",
+      "images": [
+        "01.png",
+        "02.png",
+        "03.png",
+        "04.png",
+        "05.png"
+      ],
+      "sections": [
+        {
+          "title": "作品介紹",
+          "paragraphs": [
+            "這是課程中 5 人合作的橫向戰鬥遊戲。\n製作基本戰鬥與劇情流程，含對話、劇情動畫與 BOSS 戰等。",
+            "玩家只能在存檔點恢復生命，魔力則會隨時間恢復，並可用來施放劍氣。",
+            "限於開發時間、技術與人力，作品內容較少。"
+          ]
+        }
+      ],
+      "responsibilities": [
+        "所有程式"
+      ]
+    },
+    "SaveLunch": {
+      "id": "SaveLunch",
+      "title": "拯救午餐大作戰",
+      "category": "第一個遊戲作品",
+      "group": "Sophomore",
+      "type": "戰棋遊戲雛形",
+      "team": "",
+      "cover": "03.png",
+      "tags": [
+        "戰棋",
+        "敵對NPC"
+      ],
+      "summary": "初次製作的遊戲，在時間匱乏的條件下，創作單一關卡的戰棋雛形。",
+      "images": [
+        "01.png",
+        "02.png",
+        "03.png"
+      ],
+      "sections": [
+        {
+          "title": "作品介紹",
+          "paragraphs": [
+            "這是課程中第一次製作的遊戲，2 人合作，由我負責全部程式。",
+            "一個可遊玩的戰棋雛形。\n不同角色有不同的數值與行動範圍，也有對應攻擊動畫。\n並且也有實作敵對 NPC 。"
+          ]
+        }
+      ],
+      "responsibilities": [
+        "所有程式"
+      ]
+    }
+  }
+}

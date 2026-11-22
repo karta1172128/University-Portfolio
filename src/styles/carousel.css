@@ -1,0 +1,8 @@
+.horizontal-rail { overflow: hidden; touch-action: pan-y pinch-zoom; cursor: grab; --rail-left-alpha: 1; --rail-right-alpha: 1; mask-image: linear-gradient(to right, rgba(0,0,0,var(--rail-left-alpha)), #000 var(--rail-fade-width, 24px), #000 calc(100% - var(--rail-fade-width, 24px)), rgba(0,0,0,var(--rail-right-alpha))); }
+.horizontal-rail.has-before { --rail-left-alpha: 0; }
+.horizontal-rail.has-after { --rail-right-alpha: 0; }
+.horizontal-rail.is-dragging { cursor: grabbing; user-select: none; }
+.horizontal-rail [contenteditable] { cursor: text; }
+.horizontal-rail:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
+.horizontal-rail-track { display: flex; align-items: stretch; width: max-content; transition: transform var(--rail-snap-duration, 450ms) cubic-bezier(.2,.85,.25,1.08); will-change: transform; }
+@media (prefers-reduced-motion: reduce) { .horizontal-rail-track { transition: none; } }

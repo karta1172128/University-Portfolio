@@ -1,0 +1,13 @@
+.theme-switcher { position: relative; order: 3; flex-shrink: 0; }
+.theme-switcher > summary { display: flex; align-items: center; gap: 9px; list-style: none; padding: 7px 10px; border: 1px solid var(--line); border-radius: 6px; font-size: 14px; color: var(--text); }
+.theme-switcher > summary::-webkit-details-marker { display: none; }
+.theme-current-swatch, .theme-swatch { display: inline-block; width: 13px; height: 13px; border-radius: 50%; background: var(--accent); border: 1px solid var(--line); }
+.theme-options { position: absolute; top: calc(100% + 10px); right: 0; z-index: 30; width: 180px; padding: 8px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: 0 8px 24px #0003; }
+.theme-options button { display: flex; align-items: center; gap: 12px; width: 100%; min-height: 42px; padding: 8px 10px; background: transparent; color: var(--text); border: 1px solid transparent; border-radius: 5px; text-align: left; font-size: 15px; }
+.theme-options button:hover { background: var(--surface-raised); }
+.theme-options button[aria-pressed="true"] { border-color: var(--accent); }
+.theme-check { margin-left: auto; color: var(--accent); }
+.nav-wrap { gap: 16px; }
+#site-nav { order: 2; gap: clamp(12px, 1.4vw, 24px); }
+.menu-toggle { order: 4; }
+@media (max-width: 720px) { .theme-switcher { margin-left: auto; order: 2; } .nav-wrap { gap: 10px; } #site-nav { gap: 8px; } }

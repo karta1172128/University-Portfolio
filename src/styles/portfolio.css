@@ -1,0 +1,96 @@
+.project-carousel-viewport { --rail-fade-width: 20px; }
+.project-carousel-viewport.is-dragging .project-card { transition: none; }
+/* Shared React cards and media apply consistently to all eleven entry pages. */
+.project-grid--three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.project-carousel-track { padding-block: 8px 16px; }
+.project-carousel-item { flex: 0 0 var(--project-step); width: var(--project-step); min-width: 0; padding-inline: 10px; display: flex; }
+.project-carousel-item > .project-card { width: 100%; opacity: calc(.45 + var(--card-presence, 1) * .55); transform: scale(calc(.9 + var(--card-presence, 1) * .1)); transform-origin: center top; transition: opacity 180ms linear, transform 180ms linear; }
+@media (prefers-reduced-motion: reduce) { .project-carousel-track, .project-carousel-item > .project-card { transition: none; } }
+.project-card { display: flex; flex-direction: column; min-width: 0; }
+.project-card .card-body { display: flex; flex-direction: column; align-items: flex-start; flex: 1; }
+.project-card .card-body .text-link { margin-top: auto; }
+.portfolio-all-link { gap: 8px; min-height: 40px; padding: 8px 14px; font-weight: 600; }
+.project-card .project-intro-link { border-bottom: 0; min-height: 40px; padding-block: 8px; line-height: 1.6; text-decoration-line: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; text-decoration-color: var(--accent); }
+.project-card .project-intro-link:hover { text-decoration-color: currentColor; }
+.project-card .card-body h3 { font-size: clamp(20px,1.3vw,22px); line-height: 1.5; overflow-wrap: anywhere; }
+.project-card .project-cover { flex-shrink: 0; }
+.project-card--compact .card-body { padding: 20px; }
+.project-card--compact .card-body h3 { font-size: 18px; }
+.project-card--compact .role { margin-bottom: 18px; }
+.project-card .role bdi { display: block; }
+.project-card .role bdi + bdi { margin-top: 2px; }
+.skill-icon-frame { display: flex; align-items: center; justify-content: center; flex: 0 0 56px; width: 56px; height: 56px; background: var(--icon-surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.brand-icon, .brand-icon > svg { display: block; width: 40px; height: 40px; }
+/* The official C# artwork includes more internal whitespace. */
+.brand-icon[data-brand="C#"], .brand-icon[data-brand="C#"] > svg { width: 48px; height: 48px; }
+.skill-icons { display: flex; gap: 8px; flex: 0 0 auto; }
+.skill-label { flex-wrap: wrap; }
+.skill-grid { gap: 20px; }
+.skill-card { padding: 24px; border: 1px solid var(--line-soft); border-radius: var(--radius); background: var(--surface); }
+.skill-card p { font-size: var(--font-copy); line-height: var(--body-leading); }
+.skill-label h3 { font-size: 22px; line-height: 1.45; }
+.card-body { padding: 24px; gap: 0; }
+.project-card .project-category { font-size: 13px; letter-spacing: .025em; margin-bottom: 12px; }
+.card-body > p:not(.project-category) { font-size: var(--font-copy); line-height: var(--body-leading); }
+.role { margin-top: 20px; color: var(--text); }
+.role span { font-size: 13px; color: var(--subtle); letter-spacing: .04em; margin-bottom: 7px; }
+.tags { margin-block: 18px 20px; }
+.tags li { font-size: 13px; padding: 3px 8px; background: transparent; border-color: var(--line); }
+.all-projects { padding-top: 38px; }
+.listing-heading h1 { font-size: clamp(32px, 4vw, 48px); margin-block: 28px 18px; }
+.listing-heading p { font-size: 16px; }
+.project-group-nav { display: flex; flex-wrap: wrap; gap: 12px; margin-block: 28px 40px; }
+.case-meta { margin-bottom: 0; padding: 22px 24px; background: var(--surface); border: 1px solid var(--line-soft); border-radius: var(--radius); }
+.case-meta dt { color: var(--muted); font-size: 13px; margin-bottom: 7px; }
+.case-meta dd { margin: 0; font-size: 16px; line-height: 1.6; }
+.gallery-count { color: var(--accent); font-size: 16px; font-variant-numeric: tabular-nums; }
+.gallery-controls { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: 14px; }
+.gallery-controls p { font-size: 14px; text-align: center; }
+.gallery-thumbnails { grid-template-columns: repeat(var(--gallery-columns, 8), minmax(0, 1fr)); }
+.project-body { font-size: var(--font-copy); line-height: var(--body-leading); max-width: 70ch; }
+.project-body p + p { margin-top: 14px; }
+.project-body[contenteditable] { color: var(--muted); font-size: var(--font-copy); }
+
+.project-gallery { padding-top: 40px; }
+.case-intro h1 { font-size: clamp(32px, 3.5vw, 48px); letter-spacing: -.02em; line-height: 1.4; overflow-wrap: anywhere; }
+.case-intro { max-width: none; }
+.case-intro > :not(h1) { max-width: 70ch; }
+.case-intro h1.case-title--long { font-size: clamp(28px, 2.8vw, 40px); letter-spacing: 0; line-height: 1.5; overflow-wrap: normal; }
+@media (max-width: 1000px) { .project-grid--three { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 720px) {
+    .project-grid--three { grid-template-columns: minmax(0, 1fr); }
+    .gallery-thumbnails { grid-template-columns: repeat(var(--gallery-mobile-columns, 4), minmax(0, 1fr)); }
+    .gallery-controls { flex-wrap: wrap; }
+    .gallery-controls .button { padding-inline: 16px; }
+    .gallery-controls p { order: 1; width: 100%; }
+    .case-meta > div { align-items: baseline; }
+    .case-meta dd { text-align: right; }
+    .all-projects { padding-top: 24px; }
+    .skill-card { padding: 20px; }
+    .card-body { padding: 22px; }
+    .skill-label h3 { font-size: 21px; }
+    .case-meta { padding: 18px; }
+}
+
+.project-card .role > p + p { margin-top: 12px; }
+.project-card .role > p { color: var(--text); }
+
+.inline-skill-list { display: contents; }
+.card-responsibilities > p + p { margin-top: 4px; }
+.project-category { line-height: 1.8; }
+.intro-paragraphs > p { font-size: var(--font-copy); line-height: var(--body-leading); margin-top: 16px; max-width: 44rem; color: var(--muted); }
+.experience-paragraph > p { font-size: var(--font-copy); line-height: var(--body-leading); max-width: 44rem; }
+.experience-paragraph + .experience-paragraph { margin-top: 24px; }
+.inline-link-item:empty { display: none; }
+
+/* Labels and all values use one consistent hierarchy, including inline lists. */
+.case-meta { grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr)); gap: 20px 32px; align-items: start; }
+.case-meta dt { font-size: 14px; margin-bottom: 8px; }
+.case-meta dd { font-size: 17px; line-height: 1.75; color: var(--text); }
+.case-meta dd p { font-size: inherit; line-height: inherit; color: inherit; margin: 0; }
+.case-meta dd p + p { margin-top: 4px; }
+@media (max-width: 720px) {
+  .case-meta { grid-template-columns: 1fr; gap: 18px; }
+  .case-meta > div { display: block; }
+  .case-meta dd { text-align: left; font-size: 16px; }
+}
