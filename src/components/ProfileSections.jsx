@@ -1,4 +1,5 @@
 import { sitePath } from '../paths.js';
+import { optimizedImagePath } from '../image-paths.js';
 import { InlineList, InlineLinks } from '../content/InlineList.jsx';
 import { Text, useContent, useEditing } from '../content/Content.jsx';
 
@@ -6,7 +7,7 @@ export function Introduction() {
   const { profile } = useContent();
   return <section id="Introduction" className="resume-intro shell" aria-labelledby="hero-title">
     <aside className="identity-panel" aria-label="個人資料">
-      <img className="identity-photo" src={sitePath('images/me2.jpg')} width="240" height="240" alt="阿逸的個人照片" fetchPriority="high" />
+      <img className="identity-photo" src={sitePath(optimizedImagePath('images/me2.jpg', 240))} srcSet={`${sitePath(optimizedImagePath('images/me2.jpg', 240))} 240w, ${sitePath(optimizedImagePath('images/me2.jpg', 480))} 480w`} sizes="240px" width="240" height="240" alt="阿逸的個人照片" fetchPriority="high" decoding="async" />
       <Text as="p" className="identity-alias" field="profile.alias" />
       <InlineList field="profile.facts" label="基本資料" as="dl" className="identity-facts" max={10} create={{label: '', value: ''}}>{(fact, i) => <>
         <Text as="dt" field={`profile.facts.${i}.label`} placeholder="欄位名稱" /><Text as="dd" field={`profile.facts.${i}.value`} placeholder="欄位內容" />

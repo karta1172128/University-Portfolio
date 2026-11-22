@@ -7,7 +7,7 @@ export function ProjectCard({ project, compact = false }) {
   const href = projectPath(project);
   const field = 'projects.' + project.id;
   return <article className={'project-card' + (compact ? ' project-card--compact' : '')}>
-    <a className="project-cover" href={href} aria-label={'查看' + project.title}><img src={projectImage(project, project.cover)} alt={project.title + '作品畫面'} loading="lazy" /></a>
+    <a className="project-cover" href={href} aria-label={'查看' + project.title}><img src={projectImage(project, project.cover, 640)} srcSet={`${projectImage(project, project.cover, 320)} 320w, ${projectImage(project, project.cover, 640)} 640w`} sizes="(max-width: 600px) 90vw, 440px" alt={project.title + '作品畫面'} loading="lazy" decoding="async" /></a>
     <div className="card-body">
       <p className="project-category"><Text field={field + '.category'} />{(project.award || editing) && <> / <Text field={field + '.award'} placeholder="獎項（選填）" /></>}{(project.team?.trim() || editing) && <> / <Text field={field + '.team'} placeholder="製作背景（選填）" /></>}</p>
       <h3><a href={href}><Text field={field + '.title'} /></a></h3>

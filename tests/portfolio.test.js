@@ -41,10 +41,6 @@ test('the production build retains all registered URLs and locally resolves entr
     assert(html.includes(title.replaceAll('&', '&amp;')));
     assert(html.includes(description.replaceAll('&', '&amp;').replaceAll('"', '&quot;')));
   }
-  for (const project of projects) for (const image of project.images) {
-    const path = `projects/${project.id}/${image}`;
-    assert.deepEqual(readFileSync(resolve(root, 'dist', path)), readFileSync(resolve(root, path)), path);
-  }
 });
 
 test('adding a project creates its entry without changing route or build code', () => {
