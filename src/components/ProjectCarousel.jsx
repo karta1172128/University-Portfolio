@@ -31,6 +31,7 @@ export function ProjectCarousel({ projects }) {
           select(event.key === 'Home' ? 0 : event.key === 'End' ? maxIndex : index + (event.key === 'ArrowLeft' ? -1 : 1));
         }
       }} onFocusCapture={event => {
+        if (drag.isActive()) return;
         const card = event.target.closest('[data-project-index]');
         if (!card) return;
         const bounds = viewport.current.getBoundingClientRect();
